@@ -35,9 +35,10 @@ li{
 
 
 body{
+    position: relative;
     color:darkslategray;
     background-color: lightgray;
-    overflow: scroll;
+    overflow: visible;
 
 }
      
@@ -92,9 +93,89 @@ input{
     width: 100px;
 }
 
+.box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: darkslategray;
+    border: 2px solid black;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+.box-2{
+    width: 150px;
+    height: 150px;
+    background: darkslategray;
+    border: 2px solid black;
+    z-index: 1;
+    top: -170px;
+    left: 25%;
+}
+
+.box-3{
+    width: 150px;
+    height: 150px;
+    background: darkslategray;
+    border: 2px solid black;
+    z-index: 1;
+    top: -340px;
+    left: 50%;
+}
+
+.box-4{
+     width: 150px;
+    height: 150px;
+    background: darkslategray;
+    border: 2px solid black;
+    z-index: 1;
+    top: -510px;
+    left: 75%;
+}
+
+.box-5{
+    background:#4dd3b1;
+    height: 40px;
+    width: 149px;
+    top:-590px;
+    left:.3%;
+    border:none;
+    text-align: center;
+}
+
+.box-6{
+    background:#4dd3b1;
+    height: 40px;
+    width: 149px;
+    top:-646px;
+    left:25.3%;
+    border:none;
+    text-align: center;
+}
+
+.box-7{
+    background:#4dd3b1;
+    height: 40px;
+    width: 149px;
+    top:-702px;
+    left:50.3%;
+    border:none;
+    text-align: center;
+}
+
+.box-8{
+    background:#4dd3b1;
+    height: 40px;
+    width: 149px;
+    top:-758px;
+    left:75.3%;
+    border:none;
+    text-align: center;
+}
 
 footer{ 
-        margin: 40px 0px 0px 0px;
+        margin: 40px -20px 0px -20px;
         border-top: 10px  #4dd3b1 solid;
         border-bottom: 40px darkslategray solid;
+        overflow: hidden;
     }
