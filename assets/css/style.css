@@ -1,5 +1,5 @@
 header {
-    margin:-20px -20px 0px -20px;
+    margin:-20px 0px 0px 0px;
     background-color: white;
     height: 36px;
     padding: 0px 20px 20px 5px;
@@ -65,7 +65,7 @@ h2{
 
 .Opening{
         position: relative;
-        margin: 0% 20% 0% 20%;
+        margin: auto;
         margin-top: 40px;
         padding: 20px 20px 100px 20px;
         width: 960px;
@@ -75,12 +75,13 @@ h2{
 
 }
 
-img{
+.myPicture{
     float: left;
     height:250px;
     width:200px;
     margin-right: 20px;
     }
+
 
     /* contact fields */
 input{
@@ -207,7 +208,7 @@ input{
 }
 
 footer{ 
-        margin: 40px -20px 0px -20px;
+        margin: 40px 0px 0px 0px;
         border-top: 10px  #4dd3b1 solid;
         border-bottom: 40px darkslategray solid;
     }
